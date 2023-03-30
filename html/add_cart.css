@@ -1,0 +1,39 @@
+#add-cart-main-container {
+    margin-top: 3rem;
+    width: 70%;
+    margin: auto;
+    border: 1px solid black;
+    padding: 1rem;
+    box-sizing: border-box;
+    padding-left: 4rem;
+    padding-right: 4rem;
+}
+
+.add-cart-main-container-top {
+    display: flex;
+    width: 100%;
+}
+
+.add-cart-main-container-left {
+    flex: 1;
+}
+
+.add-cart-main-container-right {
+    flex: 2;
+}
+
+.add-cart-image-container {
+    width: 300px;
+    height: 300px;
+    min-width: 300px;
+    max-width: 300px;
+    min-height: 300px;
+    max-height: 300px;
+    overflow: hidden;
+    border-radius: 50%;
+}
+
+#add-cart-image {
+    width: 100%;
+    height: 100%;
+}
